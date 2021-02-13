@@ -1,8 +1,8 @@
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Hello!</h1>
+      <h2>Start editing the App.tsx file to begin work on your app.</h2>
     </div>
   )
 }
