@@ -18,7 +18,9 @@
       "react-bootstrap": "^1.5.0",
       "react-router-bootstrap": "^0.25.0",
       "@types/react-router-bootstrap": "^0.24.5",
-      "zustand": "^3.3.2"
+      "zustand": "^3.3.2",
+      "immer": "^8.0.1",
+      "jotai": "^0.14.5"
     },
     "eslintConfig": {
       "extends": ["react-app", "react-app/jest"]
