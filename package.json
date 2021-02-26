@@ -1,6 +1,6 @@
 {
   "name": "cra-template-ts-sandbox",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Minimalist template to get started, with TypeScript, Redux and Redux-Toolkit",
   "dependencies": {
     "@chakra-ui/react": "^1.3.3",
