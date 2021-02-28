@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container"
 const App = () => {
   return (
     <main>
-      <Container className="text-center py-10">
+      <Container className="text-center py-5">
         <h1>Welcome to React!</h1>
         <h3 style={{ fontSize: 30 }}>
           Get started by editing{" "}
