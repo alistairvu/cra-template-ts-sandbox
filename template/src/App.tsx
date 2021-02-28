@@ -1,22 +1,15 @@
-import { Center, Stack, Heading, Code, Text } from "@chakra-ui/react"
+import Container from "react-bootstrap/Container"
 
 const App = () => {
   return (
     <main>
-      <Center h="100vh" w="100vw">
-        <Stack>
-          <Heading size="4xl" as="h1" textAlign="center">
-            Welcome to React!
-          </Heading>
-
-          <Text textAlign="center" style={{ fontSize: 30 }}>
-            Get started by editing{" "}
-            <Code colorScheme="red" style={{ fontSize: 30 }}>
-              src/App.tsx
-            </Code>
-          </Text>
-        </Stack>
-      </Center>
+      <Container className="text-center py-10">
+        <h1>Welcome to React!</h1>
+        <h3 style={{ fontSize: 30 }}>
+          Get started by editing{" "}
+          <code style={{ color: "red" }}>src/App.tsx</code>
+        </h3>
+      </Container>
     </main>
   )
 }
