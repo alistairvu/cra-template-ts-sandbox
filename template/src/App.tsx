@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container"
+import { FunctionComponent } from "react"
 
-const App = () => {
+const App: FunctionComponent = () => {
   return (
     <main>
       <Container className="text-center py-5">
